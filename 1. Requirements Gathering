@@ -1,0 +1,59 @@
+# Requirements Gathering and Analysis
+
+This document outlines the initial requirements for the **AnimalKingdom** Power Apps project.  
+The goal is to capture and organize animal data efficiently for users working in animal research and data collection.
+
+---
+
+## User Profile
+
+- **Primary User**: Animal Data Researcher / Wildlife Data Collector
+- **User Needs**:  
+  The user needs a reliable and easy-to-use application that can capture, organize, and retrieve comprehensive animal information, including species categories, groups, and individual animals.
+
+---
+
+## Functional Requirements
+
+| # | Functional Requirement | Description |
+|:-:|:------------------------|:------------|
+| 1 | Capture Animal Records | Users must be able to input new animal entries with fields such as name, category, group, and details. |
+| 2 | Relational Linking | The app must allow linking of animals to their respective groups and categories (e.g., Chihuahua → 4 Dogs → Mammal). |
+| 3 | Search and Retrieval | Users must be able to search, filter, and retrieve existing records quickly based on animal name, type, or classification. |
+
+---
+
+## Non-Functional Requirements
+
+| # | Non-Functional Requirement | Description |
+|:-:|:----------------------------|:------------|
+| 1 | Usability | The application should be intuitive, responsive, and suitable for users without a technical background. |
+| 2 | Performance | Data retrieval and entry processes must be completed within 2 seconds under normal network conditions. |
+| 3 | Data Integrity | The system must ensure no duplicate records exist and validate parent-child relationships before allowing new entries. |
+
+---
+
+## Visual Overview
+
+### Functional Requirements (3x3 Layout)
+
+| Functional | Functional | Functional |
+|:-----------|:-----------|:-----------|
+| Capture Animal Records | Relational Linking | Search and Retrieval |
+
+### Non-Functional Requirements (3x3 Layout)
+
+| Non-Functional | Non-Functional | Non-Functional |
+|:---------------|:---------------|:---------------|
+| Usability | Performance | Data Integrity |
+
+---
+
+## Notes
+
+- Functional requirements define what the system **must do**.
+- Non-functional requirements define **how** the system must behave.
+- These requirements will serve as the foundation for the design and development phases.
+- Requirements are subject to refinement during stakeholder feedback and iterative development.
+
+---
